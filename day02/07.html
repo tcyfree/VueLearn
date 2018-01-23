@@ -47,6 +47,9 @@
 		vm.$watch('name',function(newValue,oldValue){
 			console.log('name被修改啦，原值：'+oldValue+'，新值：'+newValue);
 		});
+		vm.$watch('user',function(newValue,oldValue){
+			console.log('user被修改啦，原值：'+oldValue+'，新值：'+newValue);
+		},true);
 
 	</script>
 	
