@@ -18,6 +18,7 @@
 	<div id="itany">
 		<button @click="flag=!flag">点我</button>
 		
+		//animated基础样式必须要有
 		<transition enter-active-class="animated fadeInLeft" leave-active-class="animated fadeOutRight">
 			<p v-show="flag">网博</p>
 		</transition>
