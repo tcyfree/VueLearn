@@ -1,4 +1,5 @@
 import Vue from 'vue'
+//引入VueRouter 
 import VueRouter from 'vue-router'
 import App from './App.vue'
 import routerConfig from './router.config.js'
